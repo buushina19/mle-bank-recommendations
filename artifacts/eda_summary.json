@@ -3,7 +3,7 @@
   "rows": 632110,
   "unique_clients": 632110,
   "missing_renta_share": 0.1715508376706586,
-  "active_clients_share": 0.5511662850714559,
+  "active_clients_share": 0.5495435920963123,
   "top_products": {
     "ind_cco_fin_ult1": 0.7815522614734777,
     "ind_ctop_fin_ult1": 0.16548069165176946,
@@ -11,5 +11,5 @@
     "ind_ecue_fin_ult1": 0.10140007277214409,
     "ind_cno_fin_ult1": 0.09467497745645537
   },
-  "product_penetration_mean": 0.0746682601625918
+  "product_penetration_mean": 0.07465083872532734
 }

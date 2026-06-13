@@ -49,7 +49,19 @@ cd mle-bank-recommendations
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+export PYTHONPATH=$PWD   # нужно для ноутбуков и скриптов
 ```
+
+### Jupyter Lab
+
+```bash
+cd mle-bank-recommendations
+source venv/bin/activate
+export PYTHONPATH=$PWD
+jupyter lab --ip=0.0.0.0 --no-browser
+```
+
+Ноутбуки в `notebooks/` содержат первую ячейку с настройкой пути к `src/`.
 
 ### Данные
 
