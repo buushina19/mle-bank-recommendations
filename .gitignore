@@ -1,0 +1,34 @@
+# Данные (большие файлы — не коммитим)
+*.csv
+*.csv.zip
+train_ver2.csv.zip
+*.parquet
+data/cache/
+
+# Кэш
+.cache/
+*.cache
+
+# Логи
+*.log
+
+# Модели и артефакты MLflow
+models/*.bin
+models/*.cbm
+!models/recommender.pkl
+mlruns/
+mlflow.db
+
+# Окружение
+.venv/
+venv/
+.env
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
